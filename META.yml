@@ -14,12 +14,13 @@ no_index:
     - t
 requires:
   Class::DBI: 3.0.17
-  DateTime: 0.47
+  DateTime: 0.42
   DateTime::Format::DateParse: 0.04
   Digest::MD5: 2.3601
   Digest::SHA1: 2.11
   Net::Abuse::Utils: 0.1
   Net::CIDR: 0.11
+  Net::DNS: 0.64
   OSSP::uuid: 1.0501
   Regexp::Common: 2.122
   Regexp::Common::net::CIDR: 0.02
@@ -27,4 +28,4 @@ requires:
   XML::IODEF: 0.07
   XML::LibXML: 1.70
   XML::Malware: 0.00_4
-version: 0.00_02
+version: 0.01_01
